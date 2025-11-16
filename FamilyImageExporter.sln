@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36623.8 d17.14
+VisualStudioVersion = 17.14.36623.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E60D0097-D7D2-4CCA-A6FD-DB6257996D63}"
 	ProjectSection(SolutionItems) = preProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Build", "build\Build.csproj", "{143E99FC-F326-47E2-AD7D-593EA9755F51}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Installer", "install\Installer.csproj", "{DC060E34-7011-468D-B881-00813E9DB7E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyImageExporter", "source\FamilyImageExporter.csproj", "{2F497D56-912D-F299-EE2B-0570C153EC39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,34 @@ Global
 		{DC060E34-7011-468D-B881-00813E9DB7E7}.Release R26|Any CPU.ActiveCfg = Release|Any CPU
 		{DC060E34-7011-468D-B881-00813E9DB7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC060E34-7011-468D-B881-00813E9DB7E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Debug R21|Any CPU.ActiveCfg = Debug R21|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Debug R21|Any CPU.Build.0 = Debug R21|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Debug R22|Any CPU.ActiveCfg = Debug R22|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Debug R22|Any CPU.Build.0 = Debug R22|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Debug R23|Any CPU.ActiveCfg = Debug R23|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Debug R23|Any CPU.Build.0 = Debug R23|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Debug R24|Any CPU.ActiveCfg = Debug R24|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Debug R24|Any CPU.Build.0 = Debug R24|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Debug R25|Any CPU.ActiveCfg = Debug R25|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Debug R25|Any CPU.Build.0 = Debug R25|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Debug R26|Any CPU.ActiveCfg = Debug R26|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Debug R26|Any CPU.Build.0 = Debug R26|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Debug|Any CPU.ActiveCfg = Debug R21|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Debug|Any CPU.Build.0 = Debug R21|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Release R21|Any CPU.ActiveCfg = Release R21|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Release R21|Any CPU.Build.0 = Release R21|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Release R22|Any CPU.ActiveCfg = Release R22|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Release R22|Any CPU.Build.0 = Release R22|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Release R23|Any CPU.ActiveCfg = Release R23|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Release R23|Any CPU.Build.0 = Release R23|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Release R24|Any CPU.ActiveCfg = Release R24|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Release R24|Any CPU.Build.0 = Release R24|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Release R25|Any CPU.ActiveCfg = Release R25|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Release R25|Any CPU.Build.0 = Release R25|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Release R26|Any CPU.ActiveCfg = Release R26|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Release R26|Any CPU.Build.0 = Release R26|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Release|Any CPU.ActiveCfg = Release R21|Any CPU
+		{2F497D56-912D-F299-EE2B-0570C153EC39}.Release|Any CPU.Build.0 = Release R21|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +104,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{143E99FC-F326-47E2-AD7D-593EA9755F51} = {B22E8335-4F02-4855-9EF5-FA828AE1790E}
 		{DC060E34-7011-468D-B881-00813E9DB7E7} = {B22E8335-4F02-4855-9EF5-FA828AE1790E}
+		{2F497D56-912D-F299-EE2B-0570C153EC39} = {B22E8335-4F02-4855-9EF5-FA828AE1790E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A72D85DD-45EB-48B6-B48B-FC12AA2FEA62}
