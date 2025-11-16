@@ -1,0 +1,15 @@
+﻿<RevitAddIns>
+    <AddIn Type="Application">
+        <Name>FamilyImageExporter</Name>
+        <Assembly>FamilyImageExporter\FamilyImageExporter.dll</Assembly>
+        <AddInId>A4B95F0F-F962-4A1B-B3D2-5AAD0142F23E</AddInId>
+        <FullClassName>FamilyImageExporter.Application</FullClassName>
+        <VendorId>Development</VendorId>
+        <VendorDescription></VendorDescription>
+        <VendorEmail></VendorEmail>
+    </AddIn>
+    <ManifestSettings>
+        <UseRevitContext>False</UseRevitContext>
+        <ContextName>FamilyImageExporter</ContextName>
+    </ManifestSettings>
+</RevitAddIns>
